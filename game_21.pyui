@@ -1,0 +1,340 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{390, 75}, {136, 163}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "dealer_card2_imageview",
+          "uuid" : "23401F9F-A545-4E94-9AED-8CCD586DAA59"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{386, 273}, {140, 163}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "player_card2_imageview",
+          "uuid" : "9C8BFA9E-DB90-429B-882D-4707F7727805"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{561, 273}, {133, 163}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "player_card3_imageview",
+          "uuid" : "94F30F3B-F14D-407E-BC8E-E490260D9541"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{218, 75}, {136, 163}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "dealer_card1_imageview",
+          "uuid" : "087B7970-54C3-4004-A639-BF801A2D8EFD"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{218, 273}, {136, 163}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "player_card1_imageview",
+          "uuid" : "64BECF5D-E8B6-44E7-9B78-628FB13117EE"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{561, 75}, {133, 157}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "dealer_card3_imageview",
+          "uuid" : "C2954395-1419-4ED7-B563-6B6CCCB2223A"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{56, 19}, {80, 33}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "reset_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Reset",
+          "uuid" : "CF94514C-E781-4D24-AC8E-278A102A319B",
+          "class" : "Button",
+          "name" : "reset_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{231, 19}, {140, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "who_is_winner_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Who is winner",
+          "uuid" : "3B7C1A5C-18FF-4F73-B2DD-BF66B5101D99",
+          "class" : "Button",
+          "name" : "who_is_winner_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{747, 266}, {164, 39}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "player_third_cards_touch_up_inside",
+          "border_width" : 0,
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Player third card",
+          "uuid" : "9787E33E-B466-4CBD-8939-FC7F4E5680DB",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "name" : "player_third_card_button",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{25, 328}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "player_score_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "5CC6A538-1168-4F7D-8D30-CECF605B8BFA",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{25, 137}, {150, 36}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "dealer_score_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "492AB625-131C-4295-AEF5-BAC39C867AA8",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{393, 19}, {301, 36}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "winner_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "5DBF9646-F88B-45D7-B044-B637AF50C1B3",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{747, 75}, {140, 42}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "deal_my_cards_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Blackjack Start!",
+          "uuid" : "C74300F0-EBF7-4D52-B14D-151A103D4E96",
+          "class" : "Button",
+          "name" : "deal_my_cards_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{25, 75}, {150, 44}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "dealer_card_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "3448613E-9689-4D32-B1BE-E5127AF9E52E",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Dealer’s cards",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{25, 263}, {150, 42}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "player_card_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "F3367352-0EB8-499F-90E6-B54116D34B71",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Player’s cards",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{747, 151}, {119, 47}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "ace_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Like 1",
+          "uuid" : "536D370D-017D-496E-935A-3DF8C27E5429",
+          "class" : "Button",
+          "name" : "ace_value_change_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{218, 465}, {136, 163}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "player_card4_imageview",
+          "uuid" : "3B9C6B1B-94F6-4699-8109-E9AFBCFAEC7D"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{393, 465}, {140, 163}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "player_card5_imageview",
+          "uuid" : "BA493A0A-2D28-45A9-A44D-7A019038D99C"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{741, 328}, {170, 41}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "player_forth_card_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Player forth card",
+          "uuid" : "B2DD9E5F-E9D6-4D5E-A57D-B138CF7306B4",
+          "class" : "Button",
+          "name" : "player_forth_card_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{741, 404}, {170, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "player_fifth_card_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Player fifth card",
+          "uuid" : "286654C7-E381-4468-9B8F-3E43A175A034",
+          "class" : "Button",
+          "name" : "player_fifth_card_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
