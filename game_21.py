@@ -98,7 +98,7 @@ def ace_touch_up_inside(sender):
     # if player likes ace equal one
     
     global player_score
-    if player_card1_value == 11 or player_card2_value == 11 or player_card3_value == 11:
+    if player_card1_value == 11 or player_card2_value == 11 or player_card3_value == 11 or player_card4_value == 11 or player_card5_value == 11:
        player_score = player_score - 10
        view['player_score_label'].text = str(player_score)
        view['ace_value_change_button'].enabled = False
